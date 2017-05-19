@@ -22,7 +22,7 @@ yum install -y wget && \
 yum install -y java-1.7.0-openjdk java-1.7.0-openjdk-devel && \
 yum clean all
 #Download Apache Tomcat 7
-RUN cd /tmp;wget http://redrockdigimark/apachemirror/tomcat/tomcat-7/v7.0.73/bin/apache-tomcat-7.0.73.tar.gz
+RUN cd /tmp;wget https://archive.apache.org/dist/tomcat/tomcat7/v7.0.73/bin/apache-tomcat-7.0.73.tar.gz
 #untar and move to proper location
 RUN cd /tmp;gunzip apache-tomcat-7.0.73.tar.gz
 RUN cd /tmp;tar -xvf apache-tomcat-7.0.73.tar
