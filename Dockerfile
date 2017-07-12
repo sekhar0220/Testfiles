@@ -1,4 +1,4 @@
-#The base image to use in the build
+#The base image to use in the build date
 FROM centos:centos6
 MAINTAINER Sobhan Kumar Samantaray <sobhansoak@gmail.com>
 #Install the MongoDB server from epel-release
